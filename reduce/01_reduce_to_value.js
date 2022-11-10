@@ -32,3 +32,5 @@ const joinName = names.reduce(
   ''
 );
 console.log(joinName); // John, Liam, Harry, Chris
+
+names.join(','); // John, Liam, Harry, Chris
